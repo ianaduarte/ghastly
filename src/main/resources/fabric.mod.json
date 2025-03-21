@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "${id}",
+	"name": "${Id}",
+	"version": "${version}",
+	"description": "Vanilla-esque journeying expansions.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/${id}",
+		"sources": "https://github.com/ianaduarte/${id}"
+	},
+	"license": "ARR",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["${group}.${id}.${Id}"]
+	},
+	"mixins": ["${id}.mixins.json"],
+	"depends": {
+		"minecraft": "~1.21.4",
+		"fabric-api": ">=0.119.2+1.21.4",
+		"java": ">=21"
+	}
+}
