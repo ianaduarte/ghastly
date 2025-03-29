@@ -3,6 +3,7 @@
 	"package": "dev.ianaduarte.ghastly.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [],
+		"LivingEntityDeltaTracker",
 	"injectors": {
 		"defaultRequire": 1
 	},
