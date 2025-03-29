@@ -1,6 +1,8 @@
 package dev.ianaduarte.ghastly;
 
+import dev.ianaduarte.ghastly.network.GhastDataPayload;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.minecraft.resources.ResourceLocation;
 
 import org.slf4j.Logger;
@@ -22,5 +24,6 @@ public class Ghastly implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		PayloadTypeRegistry.playS2C().register(GhastDataPayload.TYPE, GhastDataPayload.STREAM_CODEC);
 	}
 }
