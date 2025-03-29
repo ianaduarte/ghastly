@@ -2,8 +2,13 @@
 	"required": true,
 	"package": "dev.ianaduarte.ghastly.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [],
+	"mixins": [
 		"LivingEntityDeltaTracker",
+		"GhastChargeInfo",
+		"GhastChargeInfo$FireballGoalMixin"
+	],
+	"client": [
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
