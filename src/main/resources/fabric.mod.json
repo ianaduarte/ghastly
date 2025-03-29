@@ -15,7 +15,8 @@
 	"icon": "assets/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["${group}.${id}.${Id}"]
+		"main": ["${group}.${id}.${Id}"],
+		"client": ["${group}.${id}.${Id}Client"]
 	},
 	"mixins": ["${id}.mixins.json"],
 	"depends": {
