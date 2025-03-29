@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "dev.ianaduarte.wayfare.mixin",
+	"package": "dev.ianaduarte.ghastly.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [],
 	"injectors": {

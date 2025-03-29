@@ -12,7 +12,8 @@ repositories {
 	maven { name = 'ParchmentMC'; url = 'https://maven.parchmentmc.org'}
 }
 
-loom {}
+loom { accessWidenerPath = file("src/main/resources/ghastly.accesswidener") }
+fabricApi { configureDataGeneration() }
 
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"

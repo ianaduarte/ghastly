@@ -1,4 +1,4 @@
-package dev.ianaduarte.wayfare;
+package dev.ianaduarte.ghastly;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
@@ -6,8 +6,8 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Wayfare implements ModInitializer {
-	public static final String MOD_ID = "wayfare";
+public class Ghastly implements ModInitializer {
+	public static final String MOD_ID = "ghastly";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	
 	public static Logger getLogger(String id) {
